@@ -9,12 +9,13 @@ MVP implementation inspired from : https://medium.com/@Miqubel/refactoring-to-mv
 
 Contributions are welcome. 
 
-# What to contribute?
-
+What to contribute?
+--------
 1. Dependency Injection using Dagger2
 2. More examples illustrating RxJava and RxAndroid
 
-# Code quality
+Code quality
+--------
 
 1. Keep the code really simple, so that a beginner can actually learn from them.
 2. Make sure you are following MVP.
