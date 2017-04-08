@@ -1,4 +1,4 @@
-package com.rxjavasample;
+package com.rxjavasample.view;
 
 import android.content.Context;
 import android.support.constraint.ConstraintLayout;
@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.rxjavasample.R;
 import com.rxjavasample.model.UserResponse;
 import com.squareup.picasso.Picasso;
 

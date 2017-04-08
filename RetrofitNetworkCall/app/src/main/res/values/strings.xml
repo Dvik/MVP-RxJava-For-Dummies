@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">GitHub Users</string>
-    <string name="github_access_token"></string>
+    <string name="github_access_token">70b893249a22986d14bb162bf13b7a60e3dee5f4</string>
     <string name="title_activity_main2">Main2Activity</string>
 </resources>

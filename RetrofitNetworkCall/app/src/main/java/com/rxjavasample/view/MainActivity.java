@@ -1,9 +1,9 @@
-package com.rxjavasample;
+package com.rxjavasample.view;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import butterknife.BindView;
+import com.rxjavasample.R;
 
 public class MainActivity extends AppCompatActivity {
 

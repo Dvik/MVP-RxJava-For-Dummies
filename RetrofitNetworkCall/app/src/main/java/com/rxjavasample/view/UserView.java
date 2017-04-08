@@ -1,4 +1,4 @@
-package com.rxjavasample;
+package com.rxjavasample.view;
 
 import com.rxjavasample.model.UserResponse;
 

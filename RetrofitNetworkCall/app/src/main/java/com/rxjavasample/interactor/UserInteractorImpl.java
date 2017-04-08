@@ -1,4 +1,4 @@
-package com.rxjavasample;
+package com.rxjavasample.interactor;
 
 import com.rxjavasample.model.UserResponse;
 import com.rxjavasample.retrofit.GithubAPI;

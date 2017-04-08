@@ -1,5 +1,7 @@
-package com.rxjavasample;
+package com.rxjavasample.presenter;
 
+import com.rxjavasample.interactor.UserInteractor;
+import com.rxjavasample.view.UserView;
 import com.rxjavasample.model.UserResponse;
 
 import java.util.List;
