@@ -40,7 +40,6 @@ public class UserFragment extends Fragment implements UserView {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         usersList = new ArrayList<UserResponse>();
-        interactor = new UserInteractorImpl();
     }
 
     @Nullable
@@ -54,7 +53,7 @@ public class UserFragment extends Fragment implements UserView {
         recycler_user.setLayoutManager(new LinearLayoutManager(this.getActivity()));
         recycler_user.setAdapter(userAdapter);
 
-        UserInteractor interactor = new UserInteractorImpl();
+        UserInteractor interactor = new UserInteractorImpl(getString(R.string.github_access_token));
         presenter = new UserPresenter(interactor);
         presenter.bind(this);
 

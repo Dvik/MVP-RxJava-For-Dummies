@@ -17,8 +17,8 @@ public class UserInteractorImpl implements UserInteractor {
 
     private GithubAPI service;
 
-    public UserInteractorImpl() {
-        service = GithubService.createService("70b893249a22986d14bb162bf13b7a60e3dee5f4");
+    public UserInteractorImpl(String accessToken) {
+        service = GithubService.createService(accessToken);
     }
 
     @Override
